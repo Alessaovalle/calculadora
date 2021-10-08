@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora Alessa </title> 
+ <link href="assets/css/mystyle.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+ <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body onload="init();">
+<title>Calculadora Alessa</title>
+<div class="container">
+	<tr>
+  <td colspan="4"><span id="resultado"></span></td>
+    </tr>
+  <div class="row">
+    <div class="row row-cols-auto align-items-center">
+    <div id="siete" button type="button" class="col btn-primary">7</button></div>
+    <div id="ocho" button type="button" class="col btn-primary">8</button></div>
+    <div id="nueve" button type="button" class="col btn-primary">9</button></div>	
+    <div id= "suma" button type="button" class="col btn-secondary">+</button></div>
+  </div>
+ <div class="row">
+    <div class="row row-cols-auto align-items-center">
+    <div id="cuatro" button type="button" class="col btn-primary">4</button></div>
+    <div id="cinco" button type="button" class="col btn-primary">5</button></div>
+    <div id="seis" button type="button" class="col btn-primary">6</button></div>
+    <div id="resta" button type="button" class="col btn-secondary">-</button></div>
+  </div>
+ <div class="row">
+    <div class="row row-cols-auto align-items-center">
+    <div id="uno" button type="button" class="col btn-primary">1</button></div>
+    <div id="dos" button type="button" class="col btn-primary">2</button></div>
+    <div id="tres"button type="button" class="col btn-primary">3</button></div>
+    <div id="multiplicacion" button type="button" class="col btn-secondary">x</button></div>
+  </div>
+  <div class="row">
+    <div class="row row-cols-auto align-items-center">
+    <div id="cero" button type="button" class="col btn-primary">0</button></div>
+    <div id= "reset" button type="button" class="col btn-secondary">C</button></div>
+    <div id= "division" button type="button" class="col btn-secondary">/</button></div>	
+    <div id="igual" button type="button" class="col btn-secondary">=</button></div>
+  </div>
+</div>
+<p>Calculadora Alessa</p>
+<script src="funcionalidad.js"></script>
+</body>
+</html>
